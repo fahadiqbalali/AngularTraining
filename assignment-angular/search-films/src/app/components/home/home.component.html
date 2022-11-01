@@ -1,0 +1,18 @@
+<div class="pad" style="text-align: center;">
+  <div class="fif">
+    <h2>Hi {{currentUser.firstName}}!</h2>
+    <h3>Welcome to Search Films App!!</h3>
+    <p><a [routerLink]="['/login']">Logout</a></p>
+  </div>
+
+  <!-- <div class="fif">
+    <h5>All registered users:</h5>
+    <ul>
+      <li *ngFor="let user of users">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a (click)="deleteUser(user.id)">Delete</a>
+      </li>
+    </ul>
+  </div> -->
+</div>
+<app-movie-search></app-movie-search>

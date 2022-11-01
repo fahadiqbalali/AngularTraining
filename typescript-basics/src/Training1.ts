@@ -10,3 +10,8 @@ interface Point {
   // logs "12, 26"
   const force = { x: 12, y: 26 }
   logPoint(force)
+
+
+  function printText(str: string, alignment:"UP"| "DOWN"| "CENTER") {
+    console.log('s:cd ');
+  }
